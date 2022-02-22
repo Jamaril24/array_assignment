@@ -1,15 +1,13 @@
 'use script'
  
 document.write("<h1>Arrays Assignment</h1>")
+const icecream = ["Chocolate", "Vanilla", "Strawbery", "Rainbow", ];
+console.log(icecream);
+document.write(icecream[1]);
+icecream.push("Mint chocolate Chip");
+console.log(icecream);
 
-const icecream = ["Chocolate", "Vanilla", "Strawbery", "Rainbow", "Mint" ];
 
-console.log(icecream[1]);
-
-icecream.push("Strawberry Cheesecake");
-
-const apps = ["Snapchat", "Instagram", "Facebook", "Spotify", "Tiktok"];
-
-console.log(apps[2]);
-
-apps.shift(Tiktok);
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+delete fruits[0];
+document.write(fruits)
